@@ -12,7 +12,7 @@ use Illuminate\Http\Request;
 
 class AttendeeController extends Controller
 {
-//    use CanLoadRelationships;
+    use CanLoadRelationships;
 
     private array $relations = ['user'];
 

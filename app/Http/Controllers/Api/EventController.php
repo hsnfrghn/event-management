@@ -11,8 +11,8 @@ use Illuminate\Support\Facades\Gate;
 
 class EventController extends Controller
 {
-//    use CanLoadRelationships;
-//
+    use CanLoadRelationships;
+
     private array $relations = ['user', 'attendees', 'attendees.user'];
 
     // Remove the code below, as these methods don't exist anymore
